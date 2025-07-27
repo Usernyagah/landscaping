@@ -11,7 +11,14 @@ dotenv.config();
 connectDB();
 
 const app = express();
-app.use(cors());
+
+
+app.use(cors({
+  origin: 'https://landscaping-9j2c9t80u-dennis-projects-51b0d90d.vercel.app',
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
+}));
+
 app.use(express.json());
 
 app.use('/api/auth', authRoutes);
