@@ -59,7 +59,7 @@ landsafix/
 #### 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/landsafix.git
+git clone https://github.com/Usernyagah/landsafix.git
 cd landsafix
 ```
 
